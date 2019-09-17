@@ -9,3 +9,5 @@ class CommunityBoard extends React.Component {
     )
   }
 }
+
+export default CommunityBoard
