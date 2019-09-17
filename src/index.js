@@ -7,8 +7,9 @@ import { createStore, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import userReducer from './reducers/userreducer'
+import eventReducer from './reducers/eventreducer'
 
-const rootReducer = combineReducers({ user: userReducer })
+const rootReducer = combineReducers({ user: userReducer, event: eventReducer })
 
 const store = createStore(rootReducer)
 
